@@ -1,0 +1,6 @@
+{
+  "watch": ["FurvoScoreboardBackend"],
+  "ext": "*",
+  "ignore": ["dist/", "src/**/*.spec.ts"],
+  "exec": "tsc && node dist/index.js"
+}
